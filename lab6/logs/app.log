@@ -1,0 +1,17 @@
+2025-11-05 10:18:00 [INFO] app - HTTP Request: GET /hello
+2025-11-05 10:18:00 [INFO] app - Handling /hello request
+2025-11-05 10:18:00 [INFO] app - HTTP Response: status=200 (11.01 ms)
+2025-11-05 10:18:01 [INFO] app - HTTP Request: GET /favicon.ico
+2025-11-05 10:18:01 [INFO] app - HTTP Response: status=404 (2.12 ms)
+2025-11-05 10:18:12 [INFO] app - HTTP Request: GET /дщп
+2025-11-05 10:18:12 [INFO] app - HTTP Response: status=404 (2.27 ms)
+2025-11-05 10:18:18 [INFO] app - HTTP Request: GET /log
+2025-11-05 10:18:18 [DEBUG] app - This is a DEBUG message
+2025-11-05 10:18:18 [INFO] app - This is an INFO message
+2025-11-05 10:18:18 [WARNING] app - This is a WARN message
+2025-11-05 10:18:18 [ERROR] app - This is an ERROR message
+2025-11-05 10:18:18 [INFO] app - HTTP Response: status=200 (1.71 ms)
+2025-11-05 10:18:28 [INFO] app - HTTP Request: GET /time
+2025-11-05 10:18:28 [INFO] app - HTTP Response: status=422 (2.74 ms)
+2025-11-05 10:18:51 [INFO] app - HTTP Request: GET /tetEROR
+2025-11-05 10:18:51 [INFO] app - HTTP Response: status=404 (20.64 ms)
